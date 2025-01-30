@@ -1,6 +1,6 @@
 title: Charadata
 logo: /assets/img/logo.png
 description: Health care data solutions.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
