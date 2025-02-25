@@ -16,12 +16,6 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-<!-- Added by CA jump link -->
-        <nav>
-          <a href="{{ "/" | absolute_url }}#contact">Contact</a>  <!-- Jump link -->
-        </nav>
-<!-- End added by CA jump link -->
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -44,6 +38,13 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}     
+
+<!-- Added by CA jump link -->
+        <nav>
+          <a href="{{ "/" | absolute_url }}#contact">Contact Charadata</a>  <!-- Jump link -->
+        </nav>
+<!-- End added by CA jump link -->
+        
       </header>
       <section>
 
