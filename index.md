@@ -2,6 +2,22 @@
 layout: default
 ---
 
+## Contact Me {#contact} <!-- This ID is used for the jump link -->
+
+<form action="https://formspree.io/f/manqgkwv" method="POST">
+    <label for="name">Your name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your email address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Hi there..." required></textarea>
+
+    <button type="submit">Send</button>
+</form>
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
