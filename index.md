@@ -16,7 +16,7 @@ layout: default
 
     <button type="submit">Send</button>
 </form>
-</br></br>
+<br></br>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
