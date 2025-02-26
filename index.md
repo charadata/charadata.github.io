@@ -122,6 +122,7 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
+<br>
 <a id="contact"></a>
 ## Contact Charadata
 
