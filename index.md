@@ -39,7 +39,8 @@ Improve performance and reduce processing time with optimized SQL queries.
 Automate and simplify key government reporting metrics through integration with existing systems. 
 
 <br>
-![Centers for Medicare and Medicaid Services CMS logo](assets/img/logo-cms.png) ![US Department of Health and Human Services logo](assets/img/logo-hhs.png)  
+<img src="assets/img/logo-cms.png" alt="Centers for Medicare and Medicaid Services CMS logo" style="max-width: 20%;">
+<img src="assets/img/logo-hhs.png" alt="US Department of Health and Human Services logo" style="max-width: 10%;">
 
 <br>
 ### Stay Ahead with Data-Driven Healthcare
