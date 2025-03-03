@@ -4,10 +4,11 @@ title: "Health care data solutions"
 description: "Customized insights for insurers, Managed Care Organizations, Accountable Care Organizations and Medicare Advantage Plans."
 ---
 
-# Transforming health care administration with data analytics
+### Transforming health care administration with data analytics
 
 Helping health care providers, payers, and researchers leverage their data effectively. Charadata empowers health care organizations to make data-driven decisions that improve outcomes and operational efficiency.
 
+<br>
 ## Areas of expertise
 
 ✅ **Machine learning and AI-driven insights**
@@ -37,6 +38,7 @@ Improve performance and reduce processing time with optimized SQL queries.
 ✅ **Streamlined government reporting**
 Automate and simplify key government reporting metrics through integration with existing systems.  
 
+<br>
 ### Stay Ahead with Data-Driven Healthcare
 Supporting your team to enhance **patient care, cost efficiency, and regulatory compliance**. Making small steps to increased patient outcomes.  
 
