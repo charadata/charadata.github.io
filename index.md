@@ -38,6 +38,9 @@ Improve performance and reduce processing time with optimized SQL queries.
 ✅ **Streamlined government reporting**  
 Automate and simplify key government reporting metrics through integration with existing systems.  
 
+![Centers for Medicare and Medicaid Services CMS logo](images/logo-cms.png)  
+![US Department of Health and Human Services logo](images/logo-hhs.png)  
+
 <br>
 ### Stay Ahead with Data-Driven Healthcare
 Supporting your team to enhance **patient care, cost efficiency, and regulatory compliance**. Making small steps to increased patient outcomes.  
