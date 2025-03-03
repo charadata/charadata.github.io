@@ -36,11 +36,10 @@ Migrate your analytics stack for better flexibility and cost-effectiveness.
 Improve performance and reduce processing time with optimized SQL queries.  
 
 ✅ **Streamlined government reporting**  
-Automate and simplify key government reporting metrics through integration with existing systems. 
+Automate and simplify key government reporting metrics through integration with existing systems.  
 
-<br>
-<img src="assets/img/logo-cms.png" alt="Centers for Medicare and Medicaid Services CMS logo" style="max-width: 20%;">
-<img src="assets/img/logo-hhs.png" alt="US Department of Health and Human Services logo" style="max-width: 10%;">
+<img src="assets/img/logo-cms.png" alt="Centers for Medicare and Medicaid Services CMS logo" style="max-width: 30%;">
+<img src="assets/img/logo-hhs.png" alt="US Department of Health and Human Services logo" style="max-width: 15%;">
 
 <br>
 ### Stay Ahead with Data-Driven Healthcare
