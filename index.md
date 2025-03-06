@@ -11,17 +11,14 @@ Helping health care providers, payers, and researchers leverage their data effec
 <br>
 ## Areas of expertise
 
-✅ **Machine learning and AI-driven insights**  
-Leverage advanced analytics to uncover hidden trends in healthcare data.  
+✅ **HEDIS and eCQM compliance**  
+Streamline reporting and improve quality measures. Assistance with NCQA accreditation.  
 
 ✅ **Customized risk scoring**  
 Predict patient risk with cutting-edge machine learning or Centers for Medicare and Medicaid Services (CMS) models.  
 
 ✅ **Fraud, waste and abuse detection**  
 Identify and mitigate financial risks with intelligent algorithms.  
-
-✅ **HEDIS and eCQM compliance**  
-Streamline reporting and improve quality measures.  
 
 ✅ **Data visualization**  
 Create compelling dashboards using **Tableau, Power BI, and Jupyter**.  
@@ -31,6 +28,9 @@ Tailored solutions to meet business intelligence needs.
 
 ✅ **SAS to Python and SQL Conversion**  
 Migrate your analytics stack for better flexibility and cost-effectiveness.  
+
+✅ **Machine learning and AI-driven insights**  
+Leverage advanced analytics to uncover hidden trends in healthcare data.  
 
 ✅ **Database query optimization**  
 Improve performance and reduce processing time with optimized SQL queries.  
