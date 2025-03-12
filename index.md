@@ -12,7 +12,7 @@ Helping health care providers, payers, and researchers leverage their data effec
 ## Areas of expertise
 
 ✅ **HEDIS and eCQM compliance**  
-Streamline reporting and improve quality measures. Assistance with NCQA accreditation.  
+Streamline reporting and improve quality measures. Assistance with NCQA accreditation and HSAG audits.  
 
 ✅ **Customized risk scoring**  
 Predict patient risk with cutting-edge machine learning or Centers for Medicare and Medicaid Services (CMS) models.  
@@ -36,7 +36,7 @@ Leverage advanced analytics to uncover hidden trends in healthcare data.
 Improve performance and reduce processing time with optimized SQL queries.  
 
 ✅ **Streamlined government reporting**  
-Automate and simplify key government reporting metrics through integration with existing systems.  
+Automate and simplify key government reporting metrics through integration with existing systems. Mail merge with Crystal Reports.   
 
 <img src="assets/img/logo-cms.png" alt="Centers for Medicare and Medicaid Services CMS logo" style="max-width: 30%;">
 <img src="assets/img/logo-hhs.png" alt="US Department of Health and Human Services logo" style="max-width: 15%;">
