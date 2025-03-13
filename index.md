@@ -42,8 +42,19 @@ Automate and simplify key government reporting metrics through integration with 
 <img src="assets/img/logo-hhs.png" alt="US Department of Health and Human Services logo" style="max-width: 15%;">
 
 <br>
-### Stay Ahead with Data-Driven Healthcare
+### Stay ahead with data-driven healthcare
 Supporting your team to enhance **patient care, cost efficiency, and regulatory compliance**. Making small steps to increased patient outcomes.  
+
+<br>
+
+### Latest posts
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %d, %Y" }})
+    </li>
+  {% endfor %}
+</ul>
 
 <br>
 <a id="contact"></a>
