@@ -26,7 +26,7 @@ The measure consists of two key components:
 
 At a minimum you'll need a unique ID number, date of birth, date of death (for exclusion purposes), and an enrollment time frame. Age will be calculated later and will be as of the encounter date. 
 
-Often, there will be a SQL "gaps and islands" problem with the dates, an extra step to accurately reflect time periods where the insured was continuously enrolled. That's only if the table splits these periods if the insured changes plans, or addresses, but is otherwise still with the same Managed Care Organization. For IET, an encounter only counts if the member was enrolled 194 days prior to 47 days after the substance abuse disorder episode date. 
+Often, there will be a SQL "gaps and islands" problem with the dates, an extra step to accurately reflect time periods where the insured was continuously enrolled. That's only if the table splits these periods if the insured changes plans or addresses, but otherwise continues with the same Managed Care Organization. For IET, an encounter only counts if the member was enrolled 194 days prior to 47 days after the substance abuse disorder episode date. 
 
 So, you'll have something like this to start:
 
@@ -91,7 +91,7 @@ This will make things easier later. At each step of the specifications -- episod
 - Opioid Abuse and Dependence Value Set
 - Other Drug Abuse and Dependence Value Set
 
-Add in the two ICD-10 diagnosis codes for counseling and surveillance of alcohol and drug abuse, Z71.41 and Z71.51, and you've got all of your diagnosis codes covered.
+Add in the two ICD-10 diagnosis codes for counseling and surveillance of alcohol and drug abuse, Z71.41 and Z71.51, and you've got all of the diagnosis codes required by this quality metric.
 
 Create a temporary table of these now. This assumes you already have a table arranged with one row per diagnosis per claim. Facility claims can have a lot of diagnoses!
 
@@ -175,7 +175,7 @@ WHERE
   AND c.insured_id NOT IN (SELECT insured_id FROM #HOSPICE)
 ```
 
-Next, remove episodes found above where the insured already has a history of SUD. You'll have to do something like this.
+Next, remove episodes found above where the insured already has a history of SUD. You'll have to do something like what's shown below. Consequently, your claims table will need service dates going back to May 5 of the previous year, May 5 being 194 days prior to the new episode date of November 15.
 
 ```sql
 #EPISODES AS e
@@ -196,7 +196,7 @@ Lastly, remove SUD medication history. It's a similar process to the above excep
 
 ## Step 4: Find instance of initiation of treatment
 
-This is best done in four steps, combined later.
+Initiation services are best determined in four step and combined afterwards.
 
 1. Count episodes flagged as inpatient discharges or as monthly opioid treatment as initiation compliant. The episode date doubles as the initiation date.
 2. Find medication dispensing and administration events up to 14 days after the episode date.
@@ -216,7 +216,7 @@ Remember that the denominator for this measure is based on episodes, not on the 
 
 Also, there can be only one episode per day.
 
-According to the MAC Scorecard, the median rates in 2023 for initiation and engagement were 44.5 percent and 15.5 percent, respectively. [Go there](https://www.medicaid.gov/state-overviews/scorecard/main) to see how your MCO compares.
+According to medicaid.gov's MAC Scorecard, the median rates in 2023 for initiation and engagement were 44.5 percent and 15.5 percent, respectively. [Go there](https://www.medicaid.gov/state-overviews/scorecard/main) to see how your MCO compares.
 
 ![Medicaid Initiation and Engagement of Substance Use Disorder Treatment map](/assets/img/MACScorecard-Initiation-and-Engagement-of-Substance-Use-Disorder-Treatment-map.jpeg "Medicaid Initiation and Engagement of Substance Use Disorder Treatment United States map")
 
