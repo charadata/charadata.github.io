@@ -7,10 +7,6 @@ categories: [CMS, Medicaid]
 tags: [Quality Rating System Measures, Initiation and Engagement of Substance Use Disorder Treatment]
 ---
 
-# Guide to calculating the Initiation and Engagement of Substance Use Disorder Treatment (IET) Metric
-
-## Overview
-
 The **Initiation and Engagement of Substance Use Disorder Treatment (IET)** measure is used to evaluate the effectiveness of health plans and providers in ensuring timely access to treatment for individuals diagnosed with substance use disorder (SUD). It is commonly used by Medicaid Managed Care Organizations (MCOs) and follows **NCQA HEDIS** specifications.
 
 ### Materials required
