@@ -12,6 +12,7 @@ At [Data.CMS.gov](https://data.cms.gov/) there is a publicly available data set 
 The arrangement of the data doesn't allow the same kind of analysis that might be done with claims data. There is one row per HCPCS per referring provider with summary data. And it looks like the set is limited to only referring provider-HCPCS combinations with more than ten claims.
 
 Skimming the data, one thing that stands out is the number of patients seen, or at least billed, by some of the referring providers. Here the maximum number of beneficiaries among the HCPCS listed would actually be the <em>minimum</em> possible number of patients. Here is a simple list sorted by most to least number of beneficiares for each referring provider.  
+<br>
 
 ```sql
 -- Query in PostgreSQL for the top 25.
@@ -39,12 +40,14 @@ ORDER BY
 	Min_Possible_Benes DESC
 LIMIT 25
 ```
-  
-And, wow! That is a lot of fraud, especially from a single metric.  
+<br>  
+The results: Wow! That is a lot of fraud, especially from a single metric.  
+<br>
 
 <iframe title="Medicare 2019 top DME referrers by no. beneficiaries" aria-label="Table" id="datawrapper-chart-jZPyO" src="https://datawrapper.dwcdn.net/jZPyO/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1444" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
 </script>
-  
+
+<br>  
 Dr. Pirani, ranked third, was disciplined by Medical Board of California in 2023.
 
 Number five, Dr. Canchola, was sentenced to ten years in prison for fraud.
