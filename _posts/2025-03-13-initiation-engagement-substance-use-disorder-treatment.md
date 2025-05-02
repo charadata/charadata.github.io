@@ -26,7 +26,7 @@ The measure consists of two key components:
 
 At a minimum you'll need a unique ID number, date of birth, date of death (for exclusion purposes), and an enrollment time frame. Age will be calculated later and will be as of the encounter date. 
 
-Often, there will be a SQL "gaps and islands" problem with the dates, an extra step to accurately reflect time periods where the insured was continuously enrolled. That's only if the table splits these periods if the insured changes plans or addresses, but otherwise continues with the same Managed Care Organization. For IET, an encounter only counts if the member was enrolled 194 days prior to 47 days after the substance abuse disorder episode date. 
+Often, there will be a SQL "gaps and islands" problem with the dates, an extra step to accurately reflect time periods where the insured was continuously enrolled. That's only if the table splits these periods if the insured changes plans or addresses, but otherwise continues with the same Managed Care Organization. For IET, an encounter only counts if the member was enrolled 194 days prior to and 47 days after the substance abuse disorder episode date. 
 
 So, you'll have something like this to start:
 
