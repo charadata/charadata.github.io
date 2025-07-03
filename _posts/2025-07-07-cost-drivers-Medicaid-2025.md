@@ -3,7 +3,7 @@ layout: post
 title: "Drivers of Medicaid cost pressures in 2025"
 date: 2025-07-03
 author: "Charadata"
-categories: [Medicaid, Cost Drivers]
+categories: [Medicaid]
 tags: [Medicaid, cost drivers]
 ---
 
