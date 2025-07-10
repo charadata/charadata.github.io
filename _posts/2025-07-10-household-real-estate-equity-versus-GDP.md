@@ -7,7 +7,7 @@ categories: [Economy]
 tags: [Buffett Indicator, US real estate market]
 ---
 
-The Buffett Indicator is the ratio of total stock market capitalization to gross domestic product. In the United States, it's currently over 200 percent, suggesting that an overvalued stock market.
+The Buffett Indicator is the ratio of total stock market capitalization to gross domestic product. In the United States, it's currently over 200 percent, suggesting an overvalued stock market.
 
 The best part about the Buffett Indicator is its simplicity. Unfortunately, the author couldn't find an equivalent for the real estate market. The closest thing appears to be a data series called "Households; Owners' Equity in Real Estate, Level/Gross Domestic Product" by the Federal Reserve Bank of St. Louis. 
 
