@@ -13,6 +13,7 @@ The best part about the Buffett Indicator is its simplicity. Unfortunately, the 
 
 <div class="embed-container"><iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1KnLI&width=670&height=475" scrolling="no" frameborder="0" style="overflow:hidden;" allowTransparency="true" loading="lazy"></iframe></div><script src="https://fred.stlouisfed.org/assets/research/fred-graph-react-508/build/embed.min.js" type="text/javascript"></script>
 
+<br>
 As of this writing it shows American homeowners' real estate equity to be 1.2 times GDP. Like the Buffett Indicator, it is near record highs. 
 
 ---
