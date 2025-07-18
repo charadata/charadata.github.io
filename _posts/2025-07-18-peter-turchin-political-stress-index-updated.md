@@ -14,6 +14,7 @@ The paper, published in 2013, showed a steep, accelerating rise in the Political
 <iframe title="Turchin's PSI for the United States, 1958–2024" aria-label="Interactive line chart" id="datawrapper-chart-79pt4" src="https://datawrapper.dwcdn.net/79pt4/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="396" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
 </script>
 
+<br>
 Hopefully the Political Stress Index proves less prescient for the coming decade than it did for the last.
 
 [^1]: Peter Turchin, "Modeling Social Pressures Toward Political Instability," Cliodynamics 4, no. 2 (2013): 241–280, [Link](https://doi.org/10.21237/C7clio4221333).  
@@ -22,3 +23,5 @@ Hopefully the Political Stress Index proves less prescient for the coming decade
 ---
 
 [Contact Charadata](https://charadata.github.io/#contact)
+
+---
